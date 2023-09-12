@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> </h1> <br><br>
+    <h2>Selecciona la operacion que deseas realizar</h2><br>
+
+    <div id="saldo">
+        
+        <p>Tu saldo actual: <span id="nombreUsuario"></span>:</p>
+        <p id="saldoUsuario">0 MXN</p> 
+        <button type="button" onclick="consultaSaldo()" id="btnConsultar">Consultar saldo</button>
+    </div><br>
+
+
+    <h3>Depositar dinero</h3>
+    <div class="deposito">
+        <label for="monto">Ingrese el monto:</label>
+        <input type="number" id="monto" placeholder="Ingrese el monto"> 
+        <button type="button" onclick="depositaDinero()" id="btnDepositar">Depositar dinero</button> <br>
+    </div>
+
+    <h3>Retira dinero</h3>
+    <div class="retiro">
+        <label for="monto1">Ingresa el monto:</label>
+        <input type="number" id="monto1" placeholder="Ingrese el monto">
+        <button type="button" onclick="retiraDinero()" id="btnRetirar">Retirar dinero</button>
+    </div>
+
+  
+    
+
+<script src="main.js" ></script>
+</body>
+</html>

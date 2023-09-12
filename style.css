@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 250;
+    line-height: 120px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 75;
+    line-height: 60px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 75;
+    line-height: 60px;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+}
+
+.login input {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid;
+    outline: none;
+    text-align: center;
+    background: transparent;
+}
+
+.botonIngresar {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+}
+
+#saldo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#saldoUsuario {
+    font-size: 25px;
+}
+
+#saldo button{
+    margin: 10px;
+    flex-direction: column;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    background: transparent;
+}
+
+.deposito{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.deposito button{
+    margin: 10px;
+    flex-direction: column;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+}
+
+.deposito label {
+    margin-right: 10px;
+   
+}
+
+#monto {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid;
+    outline: none;
+    text-align: center;
+    background: transparent;
+}
+
+#monto1{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid;
+    outline: none;
+    text-align: center;
+    background: transparent;
+}
+
+.retiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.retiro label {
+    margin-right: 10px;
+}
+
+.retiro button{
+    margin: 10px;
+    flex-direction: column;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    background: transparent;
+
+}
+
+body{
+background: rgb(207,135,255);
+background: linear-gradient(90deg, rgba(207,135,255,1) 0%, rgba(109,124,255,1) 50%, rgba(255,198,119,1) 100%);
+}
